@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.githubMarkdown {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #24292e;
+  padding: 16px;
+}
+
+.githubMarkdown h1, .githubMarkdown h2, .githubMarkdown h3 {
+  margin: 24px 0 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.githubMarkdown h1 {
+  font-size: 2em;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+.githubMarkdown h2 {
+  font-size: 1.5em;
+}
+
+.githubMarkdown p {
+  margin: 0 0 16px;
+}
+
+.githubMarkdown a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.githubMarkdown a:hover {
+  text-decoration: underline;
+}
+
+.githubMarkdown code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+}
+
+.githubMarkdown pre {
+  background-color: #f6f8fa;
+  padding: 16px;
+  border-radius: 6px;
+  overflow: auto;
+  line-height: 1.45;
+  margin: 16px 0;
+}
+
+.githubMarkdown blockquote {
+  color: #6a737d;
+  border-left: 4px solid #dfe2e5;
+  margin: 0;
+  padding: 0 1em;
+}
+
+.githubMarkdown table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 16px 0;
+}
+
+.githubMarkdown th, .githubMarkdown td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+.githubMarkdown th {
+  background-color: #f6f8fa;
+  font-weight: 600;
+}
+
+.githubMarkdown ul, ol {
+  padding-left: 2em;
+  margin: 16px 0;
+}
+
+.githubMarkdown ul > li {
+  word-wrap: break-all;
+  list-style-type: disc;
+}
+
+.githubMarkdown ol > li {
+  word-wrap: break-all;
+  list-style-type: decimal;
+}
